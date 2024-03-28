@@ -44,6 +44,16 @@
             <a href="index.html">
               <img src="img/logo.svg" alt="" />
             </a>
+            <div
+              class="bar d-block d-md-none"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
           <div class="header_right">
             <ul>
@@ -203,6 +213,51 @@
       </div>
     </footer>
     <!-- footer area end -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a href="index.html"><img src="img/logo.svg" alt="" /></a>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="offcanvas_link">
+          <div class="header_right offright">
+            <ul>
+              <li id="brokersm" class="mainitem">
+                <a href="javascript:void(0)">Compare Brokers</a>
+                <ul id="comparesm">
+                  <li>
+                    <a href="#"
+                      ><img src="img/fg1.svg" alt="" />United Arab Emirates</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/fg2.svg" alt="" />Germany</a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/fg3.svg" alt="" />Kazakhstan</a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/fg3.svg" alt="" />Germany</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="mainitem"><a href="#">Partner with us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Main jQuery -->
     <script src="js/jquery-3.6.0.min.js"></script>

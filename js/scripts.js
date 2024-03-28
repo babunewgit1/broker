@@ -21,3 +21,10 @@ const compare = document.querySelector("#compare");
 broker.addEventListener("click", () => {
   compare.classList.toggle("activeBroker");
 });
+
+const brokersm = document.querySelector("#brokersm");
+const comparesm = document.querySelector("#comparesm");
+
+brokersm.addEventListener("click", () => {
+  comparesm.classList.toggle("activeBroker");
+});

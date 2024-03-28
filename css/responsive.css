@@ -22,6 +22,26 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 52%;
+  }
+
+  .platform_left {
+    width: 50%;
+    margin-top: 0rem;
+  }
+
+  .platform_left h4 br {
+    display: none;
+  }
+
+  .platform_left p {
+    margin-top: 1rem;
+  }
+
+  .platform_right {
+    width: 50%;
+  }
 }
 
 /*
@@ -30,6 +50,98 @@ Small Screen - Mobile
 ====================================
 */
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  html {
+    font-size: 50%;
+  }
+
+  .header_wrapper {
+    display: block;
+  }
+
+  .header_right {
+    display: none;
+  }
+
+  .offright {
+    display: block;
+  }
+
+  .header_right ul li.mainitem {
+    display: block;
+  }
+
+  .header_right ul li.mainitem:last-child a {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .offcanvas {
+    padding-top: 15px;
+  }
+
+  .header_right ul li.mainitem ul {
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    width: 100%;
+    display: none;
+  }
+
+  .activeBroker {
+    display: block !important;
+  }
+
+  .offcanvas-start {
+    border: 0 !important;
+  }
+
+  #hero {
+    padding: 6rem 0px;
+  }
+
+  .hero_input_field {
+    padding-right: 0rem;
+  }
+
+  .hero_input {
+    margin-top: 4rem;
+  }
+
+  .platform_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .platform_left,
+  .platform_right {
+    width: 100%;
+  }
+
+  .platform_left h4 br {
+    display: none;
+  }
+
+  #platform {
+    padding-bottom: 5rem;
+  }
+
+  footer {
+    padding: 3rem 0px;
+  }
+
+  .footer_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .footer_right ul {
+    gap: 5.5rem;
+    text-align: center;
+  }
 }
 
 /*
@@ -38,4 +150,96 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  html {
+    font-size: 50%;
+  }
+
+  .header_wrapper {
+    display: block;
+  }
+
+  .header_right {
+    display: none;
+  }
+
+  .offright {
+    display: block;
+  }
+
+  .header_right ul li.mainitem {
+    display: block;
+  }
+
+  .header_right ul li.mainitem:last-child a {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .offcanvas {
+    padding-top: 15px;
+  }
+
+  .header_right ul li.mainitem ul {
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    width: 100%;
+    display: none;
+  }
+
+  .activeBroker {
+    display: block !important;
+  }
+
+  .offcanvas-start {
+    border: 0 !important;
+  }
+
+  #hero {
+    padding: 6rem 0px;
+  }
+
+  .hero_input_field {
+    padding-right: 0rem;
+  }
+
+  .hero_input {
+    margin-top: 4rem;
+  }
+
+  .platform_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .platform_left,
+  .platform_right {
+    width: 100%;
+  }
+
+  .platform_left h4 br {
+    display: none;
+  }
+
+  #platform {
+    padding-bottom: 5rem;
+  }
+
+  footer {
+    padding: 3rem 0px;
+  }
+
+  .footer_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .footer_right ul {
+    gap: 5.5rem;
+    text-align: center;
+  }
 }
