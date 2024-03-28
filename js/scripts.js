@@ -1,32 +1,23 @@
-(function($){
-	$(document).ready(function() {	
+const countrySelect = document.querySelector("#cntry");
+const countryBox = document.querySelector(".hero_input_pera");
+const heroBlock = document.querySelectorAll(".hero_input_block ul li");
 
-		// Scroll to Top
-		jQuery('.scrolltotop').click(function(){
-			jQuery('html').animate({'scrollTop' : '0px'}, 400);
-			return false;
-		});
-		
-		jQuery(window).scroll(function(){
-			var upto = jQuery(window).scrollTop();
-			if(upto > 500) {
-				jQuery('.scrolltotop').fadeIn();
-			} else {
-				jQuery('.scrolltotop').fadeOut();
-			}
-		});
+countrySelect.addEventListener("click", () => {
+  countryBox.classList.toggle("activeCountry");
+});
 
+heroBlock.forEach((item) => {
+  item.addEventListener("click", () => {
+    const para = item.children[0];
+    const text = para.textContent.trim();
+    countrySelect.textContent = text;
+    countryBox.classList.remove("activeCountry");
+  });
+});
 
-		
+const broker = document.querySelector("#broker");
+const compare = document.querySelector("#compare");
 
-				
-		
-		
-		
-		
-		
-		
-		
-		
-	});
-})(jQuery);
+broker.addEventListener("click", () => {
+  compare.classList.toggle("activeBroker");
+});

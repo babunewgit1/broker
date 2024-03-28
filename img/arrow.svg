@@ -1,0 +1,32 @@
+<svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="15" height="8" fill="#F5F5F5"/>
+<g id="Home" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1526" transform="translate(-686 -508)" fill="#F1F7F7"/>
+<rect id="Rectangle 2" x="-686" y="-508" width="1440" height="670" fill="#00377B"/>
+<g id="Frame 28">
+<g id="Mask group">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-683" y="-508" width="1440" height="670">
+<rect id="Rectangle 10" x="-683" y="-508" width="1440" height="670" fill="#00377B"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Group 3">
+</g>
+<path id="Vector" d="M401.74 -259L441.045 -219.695L-72 293.343L79.65 445L592.695 -68.045L632 -28.7465V-259H401.74Z" fill="url(#paint0_linear_0_1)"/>
+</g>
+</g>
+</g>
+<g id="Group 14">
+<rect id="Rectangle 3" x="-502" y="-35" width="540" height="70" rx="13" fill="#EBF5F5" stroke="#72D663" stroke-width="2"/>
+<path id="Rectangle 9" d="M7.07104 0.0710677H14.1421L7.07104 7.14214L-2.2769e-05 0.0710677H7.07104Z" fill="#879797"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="642.5" y1="-268.5" x2="148.936" y2="237.919" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BFD730"/>
+<stop offset="0.724681" stop-color="#20D4B9" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1526" fill="white" transform="translate(-686 -508)"/>
+</clipPath>
+</defs>
+</svg>
