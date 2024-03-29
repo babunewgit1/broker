@@ -14,6 +14,9 @@ Medium Screen - Others
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .p2broker {
+    grid-template-columns: 272px 400px 272px;
+  }
 }
 
 /*
@@ -41,6 +44,23 @@ Small Screen - Tablate
 
   .platform_right {
     width: 50%;
+  }
+
+  .p2broker {
+    grid-template-columns: 183px 340px 183px;
+  }
+
+  .p2broker_left img {
+    max-width: 135px;
+  }
+
+  .p2broker_right_wrapper {
+    width: 100%;
+    padding-right: 2rem;
+  }
+
+  .p2broker_middle::before {
+    right: 9%;
   }
 }
 
@@ -142,6 +162,104 @@ Small Screen - Mobile
     gap: 5.5rem;
     text-align: center;
   }
+
+  .p2hero_heading {
+    padding: 3.8rem 0rem;
+    text-align: center;
+  }
+
+  .p2hero_wrapper h3 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  .p2broker {
+    grid-template-columns: 1fr;
+    padding: 2.5rem;
+  }
+
+  .p2broker_left {
+    display: block;
+  }
+
+  .p2broker_left span {
+    left: inherit;
+    right: -0.5rem;
+    top: -0.5rem;
+  }
+
+  .p2broker_left img {
+    margin-top: 3rem;
+  }
+
+  .p2broker_middle {
+    padding: 0;
+    position: inherit;
+    margin-top: 2.5rem;
+  }
+
+  .p2broker_middle:after,
+  .p2broker_middle:before {
+    content: none;
+  }
+
+  .p2broker_asset {
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+
+  .p2broker_asset_cnt p span {
+    display: block;
+  }
+
+  .p2broker_asset_cnt p {
+    font-size: 1.4rem;
+  }
+
+  .p2broker_right {
+    padding: 0rem 0;
+  }
+
+  .p2broker_asset {
+    display: none;
+  }
+
+  .p2place {
+    padding-bottom: 4.8rem;
+  }
+
+  .p2details_block {
+    display: block;
+    padding: 2.5rem;
+  }
+
+  .p2details_block_right {
+    padding-left: 0rem;
+  }
+
+  .p2details_block_right_heading h4.commition br {
+    display: none;
+  }
+
+  .p2details_block_right_heading p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .p2details_more button {
+    margin-bottom: 3rem;
+  }
+
+  .p2details_hidden h4 a {
+    display: inline;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .p2details_hidden ul li {
+    display: flex;
+    font-size: 1.4rem;
+  }
 }
 
 /*
@@ -241,5 +359,103 @@ Xtra Small Screen - Small Mobile
   .footer_right ul {
     gap: 5.5rem;
     text-align: center;
+  }
+
+  .p2hero_heading {
+    padding: 3.8rem 0rem;
+    text-align: center;
+  }
+
+  .p2hero_wrapper h3 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  .p2broker {
+    grid-template-columns: 1fr;
+    padding: 2.5rem;
+  }
+
+  .p2broker_left {
+    display: block;
+  }
+
+  .p2broker_left span {
+    left: inherit;
+    right: -0.5rem;
+    top: -0.5rem;
+  }
+
+  .p2broker_left img {
+    margin-top: 3rem;
+  }
+
+  .p2broker_middle {
+    padding: 0;
+    position: inherit;
+    margin-top: 2.5rem;
+  }
+
+  .p2broker_middle:after,
+  .p2broker_middle:before {
+    content: none;
+  }
+
+  .p2broker_asset {
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+
+  .p2broker_asset_cnt p span {
+    display: block;
+  }
+
+  .p2broker_asset_cnt p {
+    font-size: 1.4rem;
+  }
+
+  .p2broker_right {
+    padding: 0rem 0;
+  }
+
+  .p2broker_asset {
+    display: none;
+  }
+
+  .p2place {
+    padding-bottom: 4.8rem;
+  }
+
+  .p2details_block {
+    display: block;
+    padding: 2.5rem;
+  }
+
+  .p2details_block_right {
+    padding-left: 0rem;
+  }
+
+  .p2details_block_right_heading h4.commition br {
+    display: none;
+  }
+
+  .p2details_block_right_heading p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .p2details_more button {
+    margin-bottom: 3rem;
+  }
+
+  .p2details_hidden h4 a {
+    display: inline;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .p2details_hidden ul li {
+    display: flex;
+    font-size: 1.4rem;
   }
 }

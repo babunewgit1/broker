@@ -714,6 +714,7 @@ footer {
   display: inline-block;
   color: #1f1f1f;
   transition: all 0.2s ease;
+  text-decoration: underline;
 }
 
 .p2details_hidden h4 a:hover {
@@ -814,6 +815,17 @@ footer {
 
 .p2hero_heading {
   padding: 6.8rem 0rem;
+}
+
+.p2broker_left ul li {
+  display: inline-block;
+}
+
+.p2broker_left ul li img {
+  display: inline-block;
+  width: 1.8rem;
+  margin-right: 0.2rem;
+  margin-top: 0.5rem;
 }
 
 /* ===============================
