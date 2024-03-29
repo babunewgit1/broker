@@ -411,3 +411,411 @@ footer {
 /* ===============================
     Home page end
 =============================== */
+
+/* ===============================
+    page2 start
+=============================== */
+.p2wrapper {
+  background-color: #f1f7f7;
+}
+
+.p2hero_wrapper h3 {
+  color: #02a28a;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.8rem;
+}
+
+.p2hero_wrapper h3.black {
+  color: #1f1f1f;
+  margin-bottom: 1rem;
+}
+
+.p2hero_wrapper h3 img {
+  display: inline-block;
+  width: 3.2rem;
+}
+
+.p2broker_cnt {
+  border-radius: 14px;
+  background: #dce9e7;
+  overflow: hidden;
+}
+
+.p2broker {
+  border-radius: 14px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 315px 455px 315px;
+}
+
+.p2broker_left {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p2broker_left span {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 1px solid #02bfa4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #1f1f1f;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.p2broker_left img {
+  display: inline-block;
+  max-width: 182px;
+}
+
+.p2broker_middle h5 {
+  color: #1f1f1f;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.p2broker_middle ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.p2broker_middle ul li img {
+  display: inline-block;
+  width: 2rem;
+}
+
+.p2broker_right ul li {
+  display: inline-block;
+}
+
+.p2broker_right ul li img {
+  display: inline-block;
+  width: 2.2rem;
+  margin: 0.2rem;
+}
+
+.p2broker_right a {
+  display: block;
+  padding: 1.8rem 3.5rem;
+  border-radius: 1.4rem;
+  background: #00377b;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  transition: all 0.2s ease;
+  margin: 1.5rem 0px;
+}
+
+.p2broker_right a:hover {
+  opacity: 0.7;
+}
+
+.p2broker_right p {
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4rem;
+  text-align: left;
+}
+
+.p2broker_right_wrapper {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.p2broker_middle {
+  padding: 2.5rem 3rem;
+  position: relative;
+}
+
+.p2broker_middle:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 85%;
+  position: absolute;
+  left: 0.8rem;
+  top: 7%;
+  background-color: #dce9e7;
+}
+
+.p2broker_middle:before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 85%;
+  position: absolute;
+  right: 0rem;
+  top: 7%;
+  background-color: #dce9e7;
+}
+
+.p2broker_right {
+  padding: 2.5rem 0;
+}
+
+.p2broker_asset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+  column-gap: 8rem;
+}
+
+.p2broker_asset_cnt p {
+  color: #000;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.p2broker_asset_cnt p span {
+  color: #02bfa4;
+}
+
+.p2broker_cnt {
+  margin-bottom: 4.4rem;
+}
+
+.p2place p {
+  color: #1f1f1f;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.p2place p:last-child {
+  margin-top: 1.8rem;
+}
+
+.p2place {
+  padding-bottom: 9rem;
+}
+
+.p2details_block {
+  border-radius: 1.4rem;
+  background: #fff;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 264px calc(100% - 264px);
+  margin-bottom: 4rem;
+}
+
+.p2details_block_left_img img {
+  display: block;
+  width: 100%;
+}
+
+.p2details_block_left_details ul li {
+  display: inline-block;
+}
+
+.p2details_block_left_details ul li img {
+  display: inline-block;
+  width: 2.2rem;
+  margin: 0.2rem;
+}
+
+.p2details_block_left_details ul {
+  margin: 2rem 0rem;
+}
+
+.p2details_block_left_details a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  padding: 18px 22px;
+  text-align: center;
+  border-radius: 1.4rem;
+  background: #00377b;
+  transition: all 0.2s ease;
+}
+
+.p2details_block_left_details a:hover {
+  opacity: 0.7;
+}
+
+.p2details_block_left_details p {
+  color: #abb7b7;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin-top: 2rem;
+}
+
+.p2details_block_right {
+  padding-left: 4rem;
+}
+
+.p2details_block_right_heading h4 {
+  color: #1f1f1f;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.p2details_block_right_heading h4.commition {
+  color: #02bfa4;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin: 1.5rem 0rem;
+}
+
+.p2details_block_right_heading p {
+  color: #1f1f1f;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.p2details_hidden h4 {
+  color: #1f1f1f;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 2.8rem;
+  margin-bottom: 2.2rem;
+}
+
+.p2details_hidden h4 a {
+  display: inline-block;
+  color: #1f1f1f;
+  transition: all 0.2s ease;
+}
+
+.p2details_hidden h4 a:hover {
+  opacity: 0.7;
+}
+
+.p2details_hidden ul li {
+  display: flex;
+  column-gap: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  margin-bottom: 1.4rem;
+}
+
+.p2details_hidden ul li:last-child {
+  margin-bottom: 0;
+}
+
+.p2details_hidden ul li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid #02bfa4;
+  color: #02bfa4;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  border-radius: 50%;
+  flex: none;
+}
+
+.p2details_more button {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  border-radius: 14px;
+  border: 1px solid #ced7d7;
+  background: #fff;
+  text-align: center;
+  padding: 1.5rem 2.2rem;
+  transition: all 0.2s ease;
+}
+
+.p2details_more button:hover {
+  opacity: 0.7;
+}
+
+.p2details_more button img {
+  display: inline-block;
+  width: 1.6rem;
+}
+
+.p2details_more {
+  margin-top: 2.8rem;
+}
+
+.p2details_hidden {
+  display: none;
+}
+
+.activeHidden .p2details_hidden {
+  display: block;
+}
+
+.activeHidden button img {
+  transform: rotate(-180deg);
+  transition: all 0.2s ease;
+}
+
+.p2risk p {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.p2risk {
+  padding-bottom: 5.5rem;
+}
+
+.p2dis {
+  background-color: #0c6f60 !important;
+}
+
+.p2dis .disclaimer_wrapper h6 {
+  color: #d2ddeb;
+}
+
+.p2dis .disclaimer_wrapper p {
+  color: #d2ddeb;
+}
+
+.p2hero_heading {
+  padding: 6.8rem 0rem;
+}
+
+/* ===============================
+    page2 end
+=============================== */

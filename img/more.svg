@@ -1,0 +1,37 @@
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="17" height="17" fill="#F5F5F5"/>
+<g id="Home" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="3490" transform="translate(-898 -2458)" fill="#F1F7F7"/>
+<rect id="Rectangle 42" x="-715" y="-292" width="1074" height="356" rx="14" fill="white"/>
+<g id="Frame 23">
+<rect x="-382.5" y="-17.5" width="687" height="51.2553" rx="13.5" fill="white"/>
+<rect x="-382.5" y="-17.5" width="687" height="51.2553" rx="13.5" stroke="#CED7D7"/>
+<g id="Mask group">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17">
+<rect id="Rectangle 42_2" x="0.372375" width="16.2553" height="16.2553" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<path id="Vector 1" d="M4.43652 6.77286L7.92563 10.262C8.24303 10.5794 8.75765 10.5794 9.07505 10.262L12.5642 6.77286" stroke="black" stroke-width="2.03191" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+<rect id="Rectangle 50" x="-715" y="-292" width="1074" height="356" rx="14" fill="white"/>
+<g id="Frame 43">
+<rect x="-382.5" y="-17.5" width="687" height="51.2553" rx="13.5" fill="white"/>
+<rect x="-382.5" y="-17.5" width="687" height="51.2553" rx="13.5" stroke="#CED7D7"/>
+<g id="Mask group_2">
+<mask id="mask1_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17">
+<rect id="Rectangle 42_3" x="0.372375" width="16.2553" height="16.2553" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_0_1)">
+<path id="Vector 1_2" d="M4.43652 6.77286L7.92563 10.262C8.24303 10.5794 8.75765 10.5794 9.07505 10.262L12.5642 6.77286" stroke="black" stroke-width="2.03191" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="3490" fill="white" transform="translate(-898 -2458)"/>
+</clipPath>
+</defs>
+</svg>
